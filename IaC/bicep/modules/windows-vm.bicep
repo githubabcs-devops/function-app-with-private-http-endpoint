@@ -59,7 +59,7 @@ resource windowsVM 'Microsoft.Compute/virtualMachines@2020-12-01' = {
   location: location
   properties: {
     hardwareProfile: {
-      vmSize: 'Standard_A2_v2'
+      vmSize: 'Standard_B1s' //'Standard_A2_v2'
     }
     osProfile: {
       computerName: virtualMachineName
